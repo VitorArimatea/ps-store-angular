@@ -1,0 +1,7 @@
+.card-prices-container {
+	position: absolute;
+	background-color: #000000e7;
+	top: 1rem;
+	color: white;
+	padding: 0.5rem;
+}

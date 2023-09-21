@@ -2,10 +2,11 @@
 	<a href="#">
 		<img
 		class="game-image"
-		src="../../../assets/sackboy.svg"
+		[src]=[gameCover]
 		alt="Game image"
 		>
-		<app-card-label gameLabel="Playstation Exclusive"></app-card-label>
+		<app-card-label gameLabel="{{ gameLabel }}"></app-card-label>
+		<app-card-prices gamePrice="{{ gamePrice }}"></app-card-prices>
 	</a>
 </div>
 
