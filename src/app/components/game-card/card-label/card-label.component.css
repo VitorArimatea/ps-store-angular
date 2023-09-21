@@ -1,0 +1,8 @@
+.card-label-container {
+	position: absolute;
+	bottom: 3rem;
+	right: 0;
+	background-color: #000000e7;
+	color: white;
+	padding: 0.5rem;
+}

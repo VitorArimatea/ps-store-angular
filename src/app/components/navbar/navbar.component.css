@@ -1,0 +1,48 @@
+header {
+	background-color: white;
+	padding: 0.5rem 3rem;
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+}
+
+.nav-logo {
+	font-weight: 600;
+}
+
+.logo {
+	height: 40px;
+}
+
+.nav-user {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 550px;
+}
+
+.user-pic {
+	height: 40px;
+	border-radius: 50%;
+}
+
+.search-icon {
+	position: absolute;
+	right: 14.8rem;
+	height: 15px;
+}
+
+.search {
+	background-color: #f7f7f7;
+	outline: none;
+	padding: 0.4rem 2rem;
+	border-radius: 0.3rem;
+	font-size: 1rem;
+}
